@@ -50,7 +50,7 @@ client = Neo4jClient()
 
 @YA_MCPServer_Tool(
     name="batch_upsert_logic",
-    description="批量同步逻辑链条。输入格式: [{'pre': 'A', 'post': 'B'}]"
+    description="""批量同步逻辑链条。输入格式: [{"pre": "A", "post": "B"}]"""
 )
 async def batch_upsert_logic(relationships: list) -> dict:
     try:

@@ -10,6 +10,7 @@ dependencies = [
     "colorlog>=6.10.1",
     "httpx>=0.28.1",
     "mcp[cli]>=1.14.0",
+    "neo4j>=6.1.0",
     "pyyaml>=6.0.2",
     "ruff>=0.14.4",
 ]
