@@ -36,6 +36,7 @@
 
 - `tools`: 包含 `logic_guardian.py`，实现与 Neo4j 数据库的工具交互逻辑。
 - `prompts`: 包含 `planner_prompt.py`，定义 Agent 的三阶段建模角色行为。
+- `resources`: 包含资源注册逻辑与具体定义。
 
 ### 其他需要说明的情况
 
